@@ -21,6 +21,7 @@ def now_serving(line)
     if line.empty?
       puts "There is nobody waiting to be served!"
     else
+      puts "#{line.first}"
       
   
     
